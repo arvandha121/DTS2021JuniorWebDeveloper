@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dua perulangan for</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var	ulangi = confirm("Apakah anda ingin mengulang?");
+		var	counter = 0;
+
+		while(ulangi){
+			counter++;
+			var	bintang = "*".repeat(counter) + "<br>";
+			document.write(counter +" : "+bintang);
+			ulangi = confirm("apakah andan ingin mengulang?");
+		}
+
+	</script>
+</body>
+</html>

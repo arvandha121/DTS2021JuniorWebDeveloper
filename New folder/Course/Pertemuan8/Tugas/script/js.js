@@ -1,0 +1,13 @@
+var luas;
+var keliling;
+var alas;
+var tinggi;
+var sisiMiring;
+var reset;
+function hitung() {
+	alas = parseFloat(document.getElementById("ipt_alas").value);
+	tinggi = parseFloat(document.getElementById("ipt_tinggi").value);
+	luas = (alas * tinggi) / 2;
+	sisiMiring = Math.sqrt(Math.pow(alas,2)+Math.pow(tinggi,2));
+	document.getElementById('opt_luas').value = luas;
+}

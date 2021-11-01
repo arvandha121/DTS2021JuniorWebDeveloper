@@ -1,0 +1,89 @@
+body{
+      overflow-y: hidden;
+      margin:0;
+      padding: 0;
+      font-family: verdana;
+      background-image: linear-gradient(orange, red);
+}
+
+form{
+      font-family: arial;
+      background-color: rgb(255,255,255,0.7);
+      width: 300px;
+      margin: 200px auto;
+      margin-left, margin-right: auto; 
+      padding: 30px;
+      text-align: right;
+      color: #2D2D2D;
+      border-radius: 10px 40px;
+      box-shadow: 2px 2px 7px #393939;
+      font-weight: bold;
+}
+
+label {
+      display: block;
+      margin-bottom: 6px;
+      margin-right: 215px;
+      font-weight: bold;
+}
+
+input{
+      margin: 10px;
+      border-radius: 2.5px;
+}
+
+input.login{
+      background-image: linear-gradient(45deg,orange, red);
+      color: white;
+      font-family: verdana;
+      font-weight: bold;
+      border-radius: 10px;
+      padding: 5px 10px;
+      margin: 30px 10px auto 0px;
+      text-transform: uppercase;
+      transition: .2s;
+}
+
+input.login:hover{
+      background-color: #93A4B0;
+      color: #CDCDCD;
+}
+
+input[type="text"]{
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #999;
+      padding: 6px;
+      margin-bottom: 12px;
+      outline: none;
+}
+
+input[type="password"] {
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #999;
+      padding: 6px;
+      margin-bottom: 12px;
+      outline: none;
+}
+
+h2{
+      text-align:center;
+      margin: 50px auto;
+      margin-top: 10px;
+      padding: 10px;
+      font-weight: bold;
+      color: white;
+      font-family: verdana;
+      background-color: orangered;
+      border-radius: 20px;
+}
+
+.error {
+      border: 15px solid #ff6c6c;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 18px;
+      background: #ff7272;
+      color: #fff;
+}
