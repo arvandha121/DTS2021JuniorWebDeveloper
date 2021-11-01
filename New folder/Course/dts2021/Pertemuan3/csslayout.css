@@ -1,0 +1,67 @@
+<style> * {
+	box-sizing: ; border-box;
+}
+
+body{
+	font-family: arial, Helventica, sans-serif;
+}
+
+/*style the header*/
+
+header{
+	background-color: #666;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+/*create two columns / boxes that floats next to each other*/\
+
+nav{
+	float: left;
+	width: 30%;
+	height: 300px; /*only for demonstrations, should be removed*/
+	background: #ccc;
+	padding: 20px;
+}
+
+/*style the list inside rhe menu*/
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+article{
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background-color: #f1f1f1;
+	height: 300px; /*only for demonstrations, should be removed*/
+}
+
+/*clear floats after the columns*/
+
+section : after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*style the footer*/
+
+footer{
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+@media (max-widht : 600px){
+	nav, article{
+		width: 100%;
+		height: auto;
+	}
+}
+</style>

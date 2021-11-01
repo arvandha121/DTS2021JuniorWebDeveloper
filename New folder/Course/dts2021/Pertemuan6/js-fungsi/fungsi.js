@@ -1,0 +1,3 @@
+var dataBarang = {
+	"Buku Tulis",
+}

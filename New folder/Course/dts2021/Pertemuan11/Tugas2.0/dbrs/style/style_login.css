@@ -1,0 +1,35 @@
+.container {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  color: #00000;
+  font-size: 15px;
+}
+form {
+  font-family: arial;
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 340px;
+  margin: 200px auto;
+  margin-left: 18rem;
+  padding: 30px;
+  text-align: right;
+  color: #2d2d2d;
+  border-radius: 10px 40px;
+  box-shadow: 2px 2px 7px #393939;
+  font-weight: bold;
+}
+h1 {
+  font-weight: normal;
+  text-align: center;
+  font-weight: bold;
+}
+body {
+  background: rgb(231, 77, 144);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 12%, rgba(253, 29, 29, 1) 70%, rgba(252, 176, 69, 1) 100%);
+}
+.navbar {
+  background: #0d6efd;
+}

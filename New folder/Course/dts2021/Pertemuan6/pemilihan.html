@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Percabangan if</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var	nilai = prompt("Inputkan nilai akhir");
+		var grade = "";
+
+		if (nilai >= 90) {
+			grade = "A";
+		}else if(nilai >=80){
+			grade = "B+";
+		}else if(nilai >=70){
+			grade = "B";
+		}else if(nilai >=60){
+			grade = "C+";
+		}else if(nilai >=80){
+			grade = "C";
+		}else if(nilai >=80){
+			grade = "D";
+		}else if(nilai >=80){
+			grade = "E";
+		}else{
+			grade = "F";
+		}
+
+		if (grade ==="") {
+			document.write("<p>Kamu salah input data</p>");
+		}else{
+			document.write("<p>Grade anda "+grade+"</p>");
+		}
+	</script>
+</body>
+</html>

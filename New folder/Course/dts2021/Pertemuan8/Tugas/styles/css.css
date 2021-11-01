@@ -1,0 +1,62 @@
+div	{
+	margin: auto ;
+	width: 400px;
+	margin-top: 100px;
+}
+body{
+	background-image: url('../image/pawel-czerwinski-hR545CzxZxk-unsplash.jpg');
+	background-size: inherit;
+	margin-bottom: auto;
+	margin-top: 50px;
+	display: flex;
+}
+table {
+	border-style: none;
+	border-collapse: none;
+	width: 100%;
+	font-family: arial;
+    background-color: rgb(255,255,255,0.7);
+    width: 440px;
+    margin: 200px auto;
+    margin-left, margin-right: auto; 
+    padding: 30px;
+    text-align: center;
+    color: #2D2D2D;
+    border-radius: 10px 40px;
+    box-shadow: 2px 2px 100px #393939;
+    font-weight: bold;
+}
+h2{
+	background-color: #f44336;
+	padding: 5px;
+	border: none;
+	font-size: 16px;
+	color: default;
+	font: center;
+}
+td{
+	border: none;
+	font-weight: bold; 
+	font-size: 15px;
+}
+input[type=text]{
+	padding: 5px;
+	width: 385px;
+	border-style: solid;
+	border-color: #6d6e6a;
+	font-size: 14px;
+}
+input[type=text]:disabled{
+	background-color: default;
+}
+button {
+	height: 32px;
+	background-color: #4CAF50;
+    border: default;
+    color: white;
+    padding: auto;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

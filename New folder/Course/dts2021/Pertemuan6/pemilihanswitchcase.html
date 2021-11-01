@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>switch case</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var	jawab = prompt("Kamu beruntung! Silahkan pilih hadiahmu dengan memasukkan angka 1 sampai 5");
+		var	hadiah = "";
+
+		switch(jawab){
+			case "1":
+				hadiah = "Tisu";
+				break;;
+			case "2":
+				hadiah = "1 Kotak Kopi";
+				break;
+			case "3":
+				hadiah = "Stiker";
+				break;
+			case "4":
+				hadiah = "Minyak Goreng";
+				break;
+				case "5":
+				hadiah = "uang Rp. 50.000";
+				break;
+			default:
+				document.write("<p>Oops! anda salah pilih</p>");
+		}
+
+		if (hadiah ==="") {
+			document.write("<p>Kamu gagal dapat hadiah</p>");
+		}else{
+			document.write("<h2>Selamat kamu dapat" +hadiah+ "</h2>");
+		}
+
+	</script>
+</body>
+</html>
